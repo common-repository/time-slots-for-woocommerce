@@ -1,0 +1,124 @@
+/* styles for admin menu settings page */
+
+:root {
+    --blue-dark: #243b53;
+    --blue-med: #486581;
+    --blue-light: #627d98;
+    --text: #334e68;
+}
+
+/* metabox styles for the appointment post type */
+.ebxwcts_box {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+}
+
+.ebxwcts_field {
+    display: contents;
+}
+
+.ebxwcts-meta-options {
+    margin: 10px 0;
+}
+
+/* time slot admin panel options */
+
+.wcts-main-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%; 
+    padding: 2rem 2.5rem;
+}
+
+.wcts-right-col * {
+    color: var(--blue-med);
+}
+
+.wcts-left-col {
+    width: 60%;
+    margin-right: 2rem;
+}
+
+.wcts-right-col {
+    background: #fcfcfc;
+    border-color: var(--blue-med);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: .25rem;
+    padding-bottom: 1.5rem;
+    width: 30%;
+}
+
+.ebxwcts-row {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    border-radius: .25rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem .125rem;
+}
+
+.ebxwcts-main {
+    padding: .125rem 1.25rem;    
+}
+
+.ebxwcts-col {
+    flex: 1;
+    flex-basis: auto;
+}
+
+.ebxwcts-bottom-cta {
+    border-top: 1px solid #ddd;
+    margin-top: 1.25rem;
+    padding-top: .5rem;
+    text-align: center;
+}
+
+.ebxwcts-logo {
+    max-width: 70%;
+}
+
+.ebxwcts-h2 {
+    font-size: 1.7em;
+    margin: 18px 0;
+}
+
+.ebxwcts-h4 {
+    font-size: 1.4em;
+    margin: 12px 6px;
+    text-align: left;
+}
+
+.ebxwcts-ul {
+    list-style-type: disc;
+    margin: 0 0 20px 30px;
+    text-align: left;
+}
+
+.ebxwcts-ul li {
+    color: var(--text);
+}
+
+.ebxwcts-description {
+    color: var(--text);
+    margin: 10px 12px;
+}
+
+.ebxwcts-button {
+    background-color: var(--blue-med);
+    border-radius: 5px;
+    color: #f7f7f7;
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+.ebxwcts-button:hover {
+    background-color: var(--blue-light);
+    color: #f7f7f7;
+}

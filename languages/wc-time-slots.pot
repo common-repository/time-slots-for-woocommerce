@@ -1,0 +1,21 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Time Slots\n"
+"POT-Creation-Date: 2019-06-13 10:16-0500\n"
+"PO-Revision-Date: 2013-10-04 04:35-0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x;esc_attr_e;esc_html_e;"
+"_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop;esc_attr__;esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"Last-Translator: \n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/wcts-dependancy.php:18
+msgid ""
+"Notice: WooCommerce needs to be activated for WooCommerce Time Slots to work."
+msgstr ""
